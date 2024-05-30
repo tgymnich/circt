@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@master
+      - uses: tgymnich/fork-sync@v1.9
         with:
           owner: llvm
           base: main
